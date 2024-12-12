@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - EduLux</title>
+    <link rel="stylesheet" href="Contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="./Images/favicon__1_-remo vebg-preview.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logotipo">
+            <img src="./Images/EduLux.png" alt="Logo de la Residencia">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Habitaciones.html">Habitaciones</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Reservas.html">Reservas</a></li>
+                <li><a href="Precios.html">Precios</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna duda antes de hacer tu reserva? Escribanosla y nos pondremos en contacto con usted</p>
+        <form action="#" method="POST" class="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Escriba su correo" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Escriba su teléfono" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Que dudas tiene?" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="mapa" id="Mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.835035618376!2d-1.9460733242070096!3d37.386794179837166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7a9eb18624a109%3A0x2b2b2c34c79f2c8f!2sC.%20Fresno%2C%203-1%2C%2004600%20Hu%C3%A9rcal-Overa%2C%20Almer%C3%ADa!5e0!3m2!1ses!2ses!4v1672441807432!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="info-contacto">
+            <p>Dirección de la Residencia</p>
+            <p>C. Fresno, 3-1</p>
+            <br>
+            <p>Teléfono de Contacto</p>
+            <p>612345678</p>
+            <br>
+            <p>Email</p>
+            <p>EduLux@gmail.com</p>
+            <br>
+            <div class="redes-sociales">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="enlaces-rapidos">
+            <a href="./Terminos y Condiciones.html">Terminos y Condiciones</a>
+            <br>
+            <a href="Contacto.html#Mapa">Mapa del Sitio</a>
+        </div>
+        <div class="boletin">
+            <form action="#">
+                <label for="email">Suscríbete a nuestro boletín</label>
+                <input type="email" id="email" name="email" placeholder="Introduce tu email">
+                <button type="submit">Suscribirse</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

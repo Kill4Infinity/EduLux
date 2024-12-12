@@ -1,0 +1,366 @@
+/** EduLux Trabajo
+ * !Aitor Jerez Clemente
+ * ?14/11/2024
+ */
+
+/* Establece un desplazamiento suave para la navegación */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+/* Estilos para el encabezado fijo con navegación */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #6a1b9a;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-right: 10px;
+}
+
+/* Ajustes de tamaño para el logotipo dentro del encabezado */
+header .logotipo img {
+    height: 100px;
+}
+
+/* Estilo de los elementos de navegación en el encabezado */
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    padding-left: 320px;
+}
+
+/* Espaciado entre los elementos de la lista en la navegación */
+header nav ul li {
+    margin-left: 20px;
+}
+
+/* Estilo de los enlaces de la navegación, con transiciones en hover */
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Efecto hover en los enlaces de la navegación */
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Estilo para el control de música en la parte superior derecha */
+.control-musica {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo de los botones dentro del control de música */
+.control-musica button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Efecto hover en los botones de control de música */
+.control-musica button:hover {
+    background-color: #4a0d70;
+}
+
+/* Deshabilitar interacción con los íconos dentro de los botones de control */
+.control-musica button i {
+    pointer-events: none;
+}
+
+/* Estilos para el banner principal con video de fondo */
+.banner {
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+/* Estilo para el video de fondo del banner */
+.video-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Contenido dentro del banner */
+.contenido-banner {
+    position: relative;
+    z-index: 1;
+}
+
+/* Estilo del título del banner */
+.contenido-banner h1 {
+    font-size: 2.5em;
+    margin: 0;
+    animation: fadeInDown 1s;
+}
+
+/* Estilo del párrafo en el banner */
+.contenido-banner p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    animation: fadeInUp 1s;
+}
+
+/* Estilo del botón dentro del banner */
+.contenido-banner .boton {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    animation: fadeInUp 1s;
+}
+
+/* Efecto hover en el botón dentro del banner */
+.contenido-banner .boton:hover {
+    background-color: #e6b800;
+}
+
+/* Estilos generales para las secciones */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Estilos de fondo para secciones específicas */
+.sobre-nosotros,
+.habitaciones,
+.testimonios {
+    background-color: #f9f9f9;
+}
+
+/* Estilo de los títulos dentro de las secciones */
+.sobre-nosotros h2,
+.servicios h2,
+.habitaciones h2,
+.testimonios h2 {
+    color: #6a1b9a;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Línea decorativa después de los títulos de las secciones */
+.sobre-nosotros h2::after,
+.servicios h2::after,
+.habitaciones h2::after,
+.testimonios h2::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: #6a1b9a;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilos para la sección de servicios, incluyendo tarjetas */
+.servicios .tarjetas-servicio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Estilo de cada tarjeta de servicio */
+.tarjeta-servicio {
+    flex: 1 1 30%;
+    max-width: 30%;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+/* Estilo del ícono dentro de cada tarjeta de servicio */
+.tarjeta-servicio i {
+    font-size: 3em;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+/* Efecto hover en las tarjetas de servicio */
+.tarjeta-servicio:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los botones de acción */
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a1b9a;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+/* Efecto hover en los botones */
+.boton:hover {
+    background-color: #4a0d70;
+}
+
+/* Estilos para la información de contacto */
+.info-contacto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-contacto p {
+    margin: 5px 0;
+}
+
+/* Estilo para los enlaces a redes sociales */
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+/* Estilos para los enlaces rápidos */
+.enlaces-rapidos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.enlaces-rapidos a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+/* Estilos para la sección de boletín */
+.boletin {
+    text-align: center;
+}
+
+.boletin form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Estilo del campo de entrada en el formulario del boletín */
+.boletin input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Estilo del botón en el formulario del boletín */
+.boletin button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efecto hover en el botón del boletín */
+.boletin button:hover {
+    background-color: #e6b800;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos específicos para pantallas pequeñas (menos de 768px de ancho) */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .terminos {
+        padding: 10px;
+    }
+
+    .seccion-terminos h2 {
+        font-size: 1.2em;
+    }
+
+    .seccion-terminos ul {
+        padding-left: 20px;
+    }
+}
+
+/* Animaciones para hacer aparecer el contenido con un efecto de deslizamiento */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
