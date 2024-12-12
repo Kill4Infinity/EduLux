@@ -1,0 +1,13 @@
+El diseño Web, uno de los sectores más demandados
+
+Bienvenido a esta prueba maravillosa de HTML y CSS una experiencia única llena de sentimientos, placeres y horas de entretenimiento. Este módulo ha sido generado como requisito de la Sociedad y de las Empresas, un sector en áuge, donde seguirá creciendo y desarrollándose en los próximos años y décadas.
+
+
+Tema 1: HTML5 y CSS3
+HTML, Lenguaje de marcas hipertexto
+CSS, Hojas de Estilo versión 3
+Tema 2: Creación de Videojuegos
+Tema 3: Wordpress y Tienda Virtual
+Tema 4: Plataforma educativa Moodle
+
+"La creatividad digital está en tu interior, recuérdalo"
