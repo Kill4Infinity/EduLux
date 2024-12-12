@@ -26,12 +26,12 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    padding-right: 10px;
+    padding-right: .625rem;
 }
 
 /* Establece el tamaño del logotipo dentro del encabezado */
 header .logotipo img {
-    height: 100px;
+    height: 6.25rem;
 }
 
 /* Estilo para la barra de navegación, incluyendo lista de elementos */
@@ -39,12 +39,12 @@ header nav ul {
     list-style: none;
     display: flex;
     margin: auto;
-    padding-left: 320px;
+    padding-left: 24.375rem;
 }
 
 /* Espaciado entre los elementos de la barra de navegación */
 header nav ul li {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 /* Estilo para los enlaces dentro de la barra de navegación */
@@ -65,7 +65,7 @@ header nav ul li a:hover {
     background-image: url('./Images/banner-habitaciones.jpeg');
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,13 +101,13 @@ header nav ul li a:hover {
 /* Estilo para el texto del banner */
 .contenido-banner p {
     font-size: 1.2em;
-    margin: 10px 0;
+    margin: .625rem 0;
     animation: fadeInUp 1s;
 }
 
 /* Estilo para la sección de habitaciones, incluyendo el título */
 .habitaciones {
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     text-align: center;
     background-color: #f9f9f9;
 }
@@ -115,18 +115,18 @@ header nav ul li a:hover {
 /* Estilo para el título de la sección de habitaciones */
 .habitaciones h2 {
     color: #6a1b9a;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     position: relative;
 }
 
 /* Añade una línea debajo del título de la sección de habitaciones */
 .habitaciones h2::after {
     content: "";
-    width: 50px;
-    height: 3px;
+    width: 3.125rem;
+    height: .1875rem;
     background: #6a1b9a;
     display: block;
-    margin: 10px auto;
+    margin: .625rem auto;
 }
 
 /* Estilo para el contenedor de las tarjetas de habitaciones */
@@ -141,10 +141,10 @@ header nav ul li a:hover {
     flex: 1 1 30%;
     max-width: 30%;
     background-color: white;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    margin: .625rem;
+    padding: 1.25rem;
+    border: .0625rem solid #ddd;
+    border-radius: .3125rem;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
     position: relative;
@@ -154,32 +154,32 @@ header nav ul li a:hover {
 .tarjeta-habitacion img {
     width: 100%;
     height: auto;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 10px;
+    border-bottom: .0625rem solid #ddd;
+    margin-bottom: .625rem;
 }
 
 /* Estilo para los títulos de las tarjetas de habitación */
 .tarjeta-habitacion h3 {
     font-size: 1.5em;
     color: #6a1b9a;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 
 /* Estilo para el texto dentro de las tarjetas */
 .tarjeta-habitacion p {
     font-size: 1em;
     color: #555;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 /* Estilo para el botón dentro de cada tarjeta de habitación */
 .tarjeta-habitacion .boton {
-    padding: 10px 20px;
+    padding: .625rem 1.25rem;
     background-color: #6a1b9a;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: .3125rem;
     transition: background-color 0.3s;
 }
 
@@ -190,48 +190,48 @@ header nav ul li a:hover {
 
 /* Efecto de desplazamiento y sombra al pasar el cursor sobre las tarjetas */
 .tarjeta-habitacion:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-0.625rem);
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.2);
 }
 
 /* Estilo para el pie de página */
 footer {
     background-color: #6a1b9a;
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 /* Estilo para la información de contacto en el pie de página */
 .info-contacto {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .info-contacto p {
-    margin: 5px 0;
+    margin: .3125rem 0;
 }
 
 /* Estilo para los enlaces de redes sociales en el pie de página */
 .redes-sociales a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 .625rem;
     font-size: 1.2em;
 }
 
 /* Estilo para los enlaces rápidos en el pie de página */
 .enlaces-rapidos {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .enlaces-rapidos a {
     color: white;
     text-decoration: none;
     display: block;
-    margin: 5px 0;
+    margin: .3125rem 0;
 }
 
 /* Estilos para el formulario de boletín */
@@ -242,24 +242,24 @@ footer {
 /* Estilo para el formulario de boletín */
 .boletin form {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: .625rem;
 }
 
 /* Estilo para el campo de correo electrónico en el formulario de boletín */
 .boletin input[type="email"] {
-    padding: 10px;
+    padding: .625rem;
     border: none;
-    border-radius: 5px;
-    margin-right: 10px;
+    border-radius: .3125rem;
+    margin-right: .625rem;
 }
 
 /* Estilo para el botón de suscripción al boletín */
 .boletin button {
-    padding: 10px 20px;
+    padding: .625rem 1.25rem;
     background-color: #ffcc00;
     color: #6a1b9a;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125rem;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -270,8 +270,8 @@ footer {
     background-color: #e6b800;
 }
 
-/* Media query para pantallas más pequeñas (máximo 768px) */
-@media (max-width: 768px) {
+/* Media query para pantallas más pequeñas (máximo 48rem) */
+@media (max-width: 48rem) {
     /* Estilo para la barra de navegación en pantallas pequeñas */
     header nav ul {
         flex-direction: column;
@@ -280,12 +280,12 @@ footer {
 
     /* Ajusta el espaciado entre los elementos de la barra de navegación */
     header nav ul li {
-        margin: 10px 0;
+        margin: .625rem 0;
     }
 
     /* Ajuste del tamaño del banner en pantallas pequeñas */
     .banner-habitaciones {
-        height: 300px;
+        height: 18.75rem;
     }
 
     /* Ajuste del tamaño del título dentro del banner */

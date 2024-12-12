@@ -26,12 +26,12 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    padding-right: 10px;
+    padding-right: .625rem;
 }
 
 /* Ajustes de tamaño para el logotipo dentro del encabezado */
 header .logotipo img {
-    height: 100px;
+    height: 6.25rem;
 }
 
 /* Estilo de los elementos de navegación en el encabezado */
@@ -39,12 +39,12 @@ header nav ul {
     list-style: none;
     display: flex;
     margin: auto;
-    padding-left: 380px;
+    padding-left: 24.375rem;
 }
 
 /* Espaciado entre los elementos de la lista en la navegación */
 header nav ul li {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 /* Estilo de los enlaces de la navegación, con transiciones en hover */
@@ -63,8 +63,8 @@ header nav ul li a:hover {
 /* Estilo para el control de música en la parte superior derecha */
 .control-musica {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 1.25rem;
+    right: 1.25rem;
     z-index: 1001;
     display: flex;
     align-items: center;
@@ -76,10 +76,10 @@ header nav ul li a:hover {
     color: white;
     border: none;
     border-radius: 50%;
-    padding: 10px;
+    padding: .625rem;
     cursor: pointer;
-    margin-left: 10px;
-    font-size: 16px;
+    margin-left: .625rem;
+    font-size: 1rem;
     transition: background-color 0.3s;
 }
 
@@ -96,7 +96,7 @@ header nav ul li a:hover {
 /* Estilos para el banner principal con video de fondo */
 .banner {
     position: relative;
-    height: 400px;
+    height: 25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,18 +132,18 @@ header nav ul li a:hover {
 /* Estilo del párrafo en el banner */
 .contenido-banner p {
     font-size: 1.2em;
-    margin: 10px 0;
+    margin: .625rem 0;
     animation: fadeInUp 1s;
 }
 
 /* Estilo del botón dentro del banner */
 .contenido-banner .boton {
-    padding: 10px 20px;
+    padding: .625rem 1.25rem;
     background-color: #ffcc00;
     color: black;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: .3125rem;
     transition: background-color 0.3s;
     animation: fadeInUp 1s;
 }
@@ -155,7 +155,7 @@ header nav ul li a:hover {
 
 /* Estilos generales para las secciones */
 section {
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     text-align: center;
 }
 
@@ -172,7 +172,7 @@ section {
 .habitaciones h2,
 .testimonios h2 {
     color: #6a1b9a;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     position: relative;
 }
 
@@ -182,11 +182,11 @@ section {
 .habitaciones h2::after,
 .testimonios h2::after {
     content: "";
-    width: 50px;
-    height: 3px;
+    width: 3.125rem;
+    height: .1875rem;
     background: #6a1b9a;
     display: block;
-    margin: 10px auto;
+    margin: .625rem auto;
 }
 
 /* Estilos para la sección de servicios, incluyendo tarjetas */
@@ -201,10 +201,10 @@ section {
     flex: 1 1 30%;
     max-width: 30%;
     background-color: white;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    margin: .625rem;
+    padding: 1.25rem;
+    border: .0625rem solid #ddd;
+    border-radius: .3125rem;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
     position: relative;
@@ -214,26 +214,26 @@ section {
 .tarjeta-servicio i {
     font-size: 3em;
     color: #6a1b9a;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 
 /* Efecto hover en las tarjetas de servicio */
 .tarjeta-servicio:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-0.625rem);
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.2);
 }
 
 /* Estilos para los botones de acción */
 .boton {
     display: inline-block;
-    padding: 10px 20px;
+    padding: .625rem 1.25rem;
     background-color: #6a1b9a;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: .3125rem;
     transition: background-color 0.3s;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 /* Efecto hover en los botones */
@@ -244,32 +244,32 @@ section {
 /* Estilos para la información de contacto */
 .info-contacto {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .info-contacto p {
-    margin: 5px 0;
+    margin: .3125rem 0;
 }
 
 /* Estilo para los enlaces a redes sociales */
 .redes-sociales a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 .625rem;
     font-size: 1.2em;
 }
 
 /* Estilos para los enlaces rápidos */
 .enlaces-rapidos {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .enlaces-rapidos a {
     color: white;
     text-decoration: none;
     display: block;
-    margin: 5px 0;
+    margin: .3125rem 0;
 }
 
 /* Estilos para la sección de boletín */
@@ -279,24 +279,24 @@ section {
 
 .boletin form {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: .625rem;
 }
 
 /* Estilo del campo de entrada en el formulario del boletín */
 .boletin input[type="email"] {
-    padding: 10px;
+    padding: .625rem;
     border: none;
-    border-radius: 5px;
-    margin-right: 10px;
+    border-radius: .3125rem;
+    margin-right: .625rem;
 }
 
 /* Estilo del botón en el formulario del boletín */
 .boletin button {
-    padding: 10px 20px;
+    padding: .625rem 1.25rem;
     background-color: #ffcc00;
     color: black;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125rem;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -311,24 +311,24 @@ section {
 footer {
     background-color: #6a1b9a;
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
-/* Estilos específicos para pantallas pequeñas (menos de 768px de ancho) */
-@media (max-width: 768px) {
+/* Estilos específicos para pantallas pequeñas (menos de 48rem de ancho) */
+@media (max-width: 48rem) {
     header nav ul {
         flex-direction: column;
         padding-left: 0;
     }
 
     header nav ul li {
-        margin: 10px 0;
+        margin: .625rem 0;
     }
 
     .terminos {
-        padding: 10px;
+        padding: .625rem;
     }
 
     .seccion-terminos h2 {
@@ -336,7 +336,7 @@ footer {
     }
 
     .seccion-terminos ul {
-        padding-left: 20px;
+        padding-left: 1.25rem;
     }
 }
 
@@ -344,7 +344,7 @@ footer {
 @keyframes fadeInDown {
     from {
         opacity: 0;
-        transform: translateY(-50px);
+        transform: translateY(-3.125rem);
     }
 
     to {
@@ -356,7 +356,7 @@ footer {
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(50px);
+        transform: translateY(3.125rem);
     }
 
     to {

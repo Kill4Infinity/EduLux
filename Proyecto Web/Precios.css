@@ -39,7 +39,7 @@ header nav ul {
     list-style: none;
     display: flex;
     margin: auto;
-    padding-left: 20rem;
+    padding-left: 24.375rem;
 }
 
 /* Espaciado entre los elementos de la barra de navegación */
@@ -248,7 +248,7 @@ footer {
     }
     
     header nav ul li {
-        margin: 10px 0;
+        margin: .625rem 0;
     }
 
     .menu-vertical {

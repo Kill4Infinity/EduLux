@@ -26,12 +26,12 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    padding-right: 10px;
+    padding-right: .625rem;
 }
 
 /* Establece el tamaño del logotipo dentro del encabezado */
 header .logotipo img {
-    height: 100px;
+    height: 6.25rem;
 }
 
 /* Estilo para la barra de navegación, incluyendo lista de elementos */
@@ -39,12 +39,12 @@ header nav ul {
     list-style: none;
     display: flex;
     margin: auto;
-    padding-left: 320px;
+    padding-left: 24.375rem;
 }
 
 /* Espaciado entre los elementos de la barra de navegación */
 header nav ul li {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 /* Estilo para los enlaces dentro de la barra de navegación */
@@ -62,7 +62,7 @@ header nav ul li a:hover {
 
 /* Estilos para la sección de contacto, incluyendo su título y formulario */
 .contacto {
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     text-align: center;
     background-color: #f9f9f9;
 }
@@ -70,35 +70,35 @@ header nav ul li a:hover {
 /* Estilo para el título de la sección de contacto */
 .contacto h2 {
     color: #6a1b9a;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     position: relative;
 }
 
 /* Añade una línea debajo del título de la sección de contacto */
 .contacto h2::after {
     content: "";
-    width: 50px;
-    height: 3px;
+    width: 3.125rem;
+    height: .1875rem;
     background: #6a1b9a;
     display: block;
-    margin: 10px auto;
+    margin: .625rem auto;
 }
 
 /* Estilo para el párrafo dentro de la sección de contacto */
 .contacto p {
     font-size: 1.2em;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 /* Estilo general para el formulario de contacto */
 .formulario-contacto {
-    max-width: 600px;
+    max-width: 37.5rem;
     margin: 0 auto;
     background-color: white;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 1.25rem;
+    border-radius: .5rem;
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.1);
     text-align: left;
 }
 
@@ -106,7 +106,7 @@ header nav ul li a:hover {
 .formulario-contacto label {
     display: block;
     font-size: 1.1em;
-    margin-bottom: 8px;
+    margin-bottom: .5rem;
     color: #333;
 }
 
@@ -114,21 +114,21 @@ header nav ul li a:hover {
 .formulario-contacto input, 
 .formulario-contacto textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    padding: .625rem;
+    margin-bottom: 1.25rem;
+    border: .0625rem solid #ddd;
+    border-radius: .3125rem;
     font-size: 1em;
     color: #555;
 }
 
 /* Estilo para el botón de envío del formulario */
 .formulario-contacto button {
-    padding: 10px 20px;
+    padding: .625rem 1.25rem;
     background-color: #6a1b9a;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125rem;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -141,44 +141,44 @@ header nav ul li a:hover {
 
 /* Estilos para la sección del mapa, incluyendo el iframe */
 .mapa {
-    margin: 40px auto;
-    max-width: 600px;
+    margin: 2.5rem auto;
+    max-width: 37.5rem;
     text-align: center;
 }
 
 .mapa iframe {
     width: 100%;
     border: none;
-    border-radius: 8px;
+    border-radius: .5rem;
 }
 
 /* Estilo para el pie de página */
 footer {
     background-color: #6a1b9a;
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 /* Estilo para la información de contacto en el pie de página */
 .info-contacto {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .info-contacto p {
-    margin: 5px 0;
+    margin: .3125rem 0;
 }
 
 /* Estilo para los enlaces de redes sociales en el pie de página */
 .redes-sociales {
-    margin: 10px 0;
+    margin: .625rem 0;
 }
 
 .redes-sociales a {
     color: white;
-    margin: 0 10px;
+    margin: 0 .625rem;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -191,7 +191,7 @@ footer {
 /* Estilos para los enlaces rápidos y boletín de noticias */
 .enlaces-rapidos, .boletin {
     text-align: center;
-    margin: 10px 0;
+    margin: .625rem 0;
 }
 
 .enlaces-rapidos a, .boletin a {
@@ -201,18 +201,18 @@ footer {
 
 /* Estilo para el campo de correo electrónico del formulario del boletín */
 .boletin input[type="email"] {
-    padding: 10px;
+    padding: .625rem;
     border: none;
-    border-radius: 5px;
-    margin-right: 10px;
+    border-radius: .3125rem;
+    margin-right: .625rem;
 }
 
 /* Estilo para el botón de suscripción al boletín */
 .boletin button {
-    padding: 10px 20px;
+    padding: .625rem 1.25rem;
     background-color: #ffcc00;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125rem;
     font-weight: bold;
     cursor: pointer;
 }
@@ -224,14 +224,14 @@ footer {
 
 
 /* Media query */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
 
     header nav ul {
-        padding-left: 20px;
+        padding-left: 1.25rem;
     }
 
     header nav ul li {
-        margin-left: 10px;
+        margin-left: .625rem;
     }
 
     .contacto h2 {
@@ -240,7 +240,7 @@ footer {
 
     .formulario-contacto {
         max-width: 100%;
-        padding: 15px;
+        padding: .9375rem;
     }
 
     .formulario-contacto label {
@@ -253,29 +253,29 @@ footer {
     }
 
     .mapa {
-        margin: 20px auto;
+        margin: 1.25rem auto;
         max-width: 100%;
     }
 
     footer {
-        padding: 15px;
+        padding: .9375rem;
     }
 
     .info-contacto {
-        margin-bottom: 10px;
+        margin-bottom: .625rem;
     }
 
     .redes-sociales a {
         font-size: 1em;
-        margin: 0 5px;
+        margin: 0 .3125rem;
     }
 
     .boletin input[type="email"] {
         font-size: 0.9em;
-        padding: 8px;
+        padding: .5rem;
     }
 
     .boletin button {
-        padding: 8px 15px;
+        padding: .5rem .9375rem;
     }
 }

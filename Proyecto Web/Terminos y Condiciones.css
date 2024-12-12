@@ -28,18 +28,18 @@ header {
 }
 
 header .logotipo img {
-    height: 100px;
+    height: 6.25rem;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
     margin: auto;
-    padding-left: 380px;
+    padding-left: 24.375rem;
 }
 
 header nav ul li {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 header nav ul li a {
@@ -54,36 +54,36 @@ header nav ul li a:hover {
 }
 
 main {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 /* Ajuste del contenido principal */
 
 .terminos {
-    max-width: 900px;
+    max-width: 56.25rem;
     margin: 0 auto;
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    border-radius: .625rem;
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.1);
 }
 
 .terminos h1 {
     color: #6a1b9a;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .seccion-terminos {
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ddd;
+    margin-bottom: 1.25rem;
+    padding-bottom: .625rem;
+    border-bottom: .0625rem solid #ddd;
 }
 
 .seccion-terminos h2 {
     color: #6a1b9a;
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 
 .seccion-terminos ul {
@@ -91,7 +91,7 @@ main {
 }
 
 .seccion-terminos ul li {
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 
 /* Footer */
@@ -99,23 +99,23 @@ footer {
     text-align: center;
     background-color: #6a1b9a;
     color: white;
-    padding: 10px;
-    margin-top: 20px;
+    padding: .625rem;
+    margin-top: 1.25rem;
 }
 
 /* Media query */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     header nav ul {
         flex-direction: column;
         padding-left: 0;
     }
 
     header nav ul li {
-        margin: 10px 0;
+        margin: .625rem 0;
     }
 
     .terminos {
-        padding: 10px;
+        padding: .625rem;
     }
 
     .seccion-terminos h2 {
@@ -123,6 +123,6 @@ footer {
     }
 
     .seccion-terminos ul {
-        padding-left: 20px;
+        padding-left: 1.25rem;
     }
 }
